@@ -30,5 +30,4 @@ public class Project {
     @Column(name = "finalDate")
     private Calendar finalDate;
 
-    //Teste
 }
