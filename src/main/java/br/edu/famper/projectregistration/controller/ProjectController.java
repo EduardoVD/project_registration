@@ -83,6 +83,6 @@ public class ProjectController {
     @DeleteMapping
     public ResponseEntity<String> deleteAll() {
         projectService.deleteAll();
-        return ResponseEntity.status(HttpStatus.OK).body("All Project's Are Deleted...");
+        return ResponseEntity.status(HttpStatus.OK).body("All Project's Deleted...");
     }
 }
